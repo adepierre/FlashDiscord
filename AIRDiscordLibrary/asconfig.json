@@ -1,0 +1,14 @@
+{
+	"type": "lib",
+	"config": "air", // Important!! To include AIR libraries
+	"application": "src/AIRDiscordLibrary-extension.xml",
+	"compilerOptions": {
+		"source-path": [
+			"src"
+		],
+		"include-sources": [
+			"src"
+		],
+		"output": "bin/AIRDiscordLibrary.swc"
+	}
+}

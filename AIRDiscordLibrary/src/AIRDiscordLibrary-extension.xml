@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension xmlns="http://ns.adobe.com/air/extension/21.0">
+ 
+  <!-- This is the extension ID: the same unique string
+  	   you defined in AIRDiscordWrapper.as -->
+  <id>com.AIRDiscord.extensions</id>
+ 
+  <versionNumber>1.0.0</versionNumber>
+ 
+  <platforms>
+ 
+  		<platform name="Windows-x86">
+			<applicationDeployment>
+				<!-- The name of the DLL file: -->
+				<nativeLibrary>NativeDiscordWrapper.dll</nativeLibrary>
+ 
+				<!-- The names of the extension initializer
+				     and finalizer functions defined
+				     in cpp file: -->
+				<initializer>ExtensionInitializer</initializer>
+				<finalizer>ExtensionFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+ 
+  </platforms>
+</extension>
